@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Solicitud de Empleo</title>
+</head>
+<style tipe="text/css">
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	} 
+	th, td{
+		padding: 4px;
+	}
+	table#datos{
+		width: 90%;
+		background-color: #D0D0D0;
+	}
+	table{
+		width: 90%;
+	}
+</style>
+<body>
+	<center>
+	<br><br>
+	<table>
+	<tr>
+		<td>
+			<center>
+			<h1>Solicitud de Empleo</h1>
+			<br>
+			<label for="Puesto">Puesto que Solicita:</label>
+			<input type="text" placeholder="Escribe el puesto que quiere" id="Puesto">
+			</center>
+		</td>
+		<td width=35%>
+			<label>Fecha:</label>
+			<select>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+				<option value="Junio">Junio</option>
+				<option value="Julio">Julio</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Septiembre">Septiembre</option>
+				<option value="Octubre">Octubre</option>
+				<option value="Noviembre">Noviembre</option>
+				<option value="Diciembre">Diciembre</option>
+			</select>
+			<select>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+				<option value="2027">2027</option>
+				<option value="2028">2028</option>
+				<option value="2029">2029</option>
+			</select>
+			<br><br>
+			<label for="Sueldo">Sueldo Mensual deseado:</label>
+			<input type="text" placeholder="Escribe tu sueldo ideal" id="Sueldo">
+			<br><br>
+			<label for="Sueldo">Sueldo Mensual aprovado:</label>
+			<input type="text" placeholder="Este sera su sueldo" id="Sueldo">
+			<br><br>
+			<label>Fecha de Contratación:</label>
+			<select>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+				<option value="Junio">Junio</option>
+				<option value="Julio">Julio</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Septiembre">Septiembre</option>
+				<option value="Octubre">Octubre</option>
+				<option value="Noviembre">Noviembre</option>
+				<option value="Diciembre">Diciembre</option>
+			</select>
+			<select>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+				<option value="2027">2027</option>
+				<option value="2028">2028</option>
+				<option value="2029">2029</option>
+			</select>
+		</td>
+		<td width=15%>
+		<center>
+		<label>Foto</label>
+		</center>
+		</td>
+	</tr>
+	</table>
+	<table id="datos">
+		<tr>
+			<th>Datos personales</th>
+		</tr>
+	</table>
+		<table>
+		<tr>
+			<td>
+				<label for="apellido p">Apellido Paterno:</label>
+				<input type="text" placeholder="Escribe tu apellido paterno" id="apellido p">
+			</td>
+			<td>
+				<label for="apellido m">Apellido Materno:</label>
+				<input type="text" placeholder="Escribe tu apellido materno" id="apellido m">
+			</td>
+			<td>
+				<label for="nombre">Nombre(s):</label>
+				<input type="text" placeholder="Escribe tu nombre(s)" id="nombre">
+			</td>
+			<td>
+				<label>Edad:</label>
+				<select>
+					<option value="16">16 años</option>
+					<option value="17">17 años</option>
+					<option value="18">18 años</option>
+					<option value="19">19 años</option>
+					<option value="20">20 años</option>
+					<option value="21">21 años</option>
+					<option value="22">22 años</option>
+					<option value="23">23 años</option>
+					<option value="24">24 años</option>
+					<option value="25">25 años</option>
+					<option value="26">26 años</option>
+					<option value="27">27 años</option>
+					<option value="28">28 años</option>
+					<option value="29">29 años</option>
+					<option value="30">30 años</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<label for="domicilio">Domicilio</label>
+				<input type="text" placeholder="Escribe tu domicilio" id="domicilio">
+			</td>
+			<td>
+				<label for="colonia">Colonia:</label>
+				<input type="text" placeholder="Escribe tu colonia" id="colonia">
+			</td>
+			<td>
+				<label for="digo postal">Código postal:</label>
+				<input type="text" placeholder="Escribe tu código postal" id="digo postal">
+			</td>
+			<td>
+				<label for="Telefono">Telefono:</label>
+				<input type="text" placeholder="Escribe tu telefono en No." id="Telefono">
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<center>Ciudad, Estado:</label>
+					<select>
+					<option value="Aguascalientes, Aguascalientes">Aguascalientes, Aguascalientes</option>
+					<option value="Baja California, Ensenada">Baja California, Ensenada</option>
+					<option value="Baja California, Mexicali">Baja California, Mexicali</option>
+					<option value="Baja California, Tijuana">Baja California, Tijuana</option>
+					<option value="Baja California sur, La paz">Baja California sur, La paz</option>
+					<option value="Baja California sur, Los Cabos">Baja California sur, Los Cabos</option>
+					<option value="Campeche, Campeche">Campeche, Campeche</option>
+					<option value="Campeche, Ciudad del crimen">Campeche, Ciudad del crimen</option>
+					<option value="Coahuila, Saltillo">Coahuila, Saltillo</option>
+					<option value="Coahuila, Monclova-Frontera">Coahuila, Monclova-Frontera</option>
+					<option value="Coahuila, La Laguna">Coahuila, La Laguna</option>
+					<option value="Coahuila, Piedras Negras">Coahuila, Piedras Negras</option>
+					<option value="Colima, Tecomán">Colima, Tecomán</option>
+					<option value="Colima, Villa de Álvarez">Colima, Villa de Álvarez</option>
+					<option value="Colima, Manzanillo">Colima, Manzanillo</option>
+					<option value="Chiapas, Tuxtla Gutiérrez">Chiapas, Tuxtla Gutiérrez</option>
+					<option value="Chiapas, Tapachula">Chiapas, Tapachula</option>
+					<option value="Chihuahua, Chihuahua">Chihuahua, Chihuahua</option>
+					<option value="Chihuahua, Juárez">Chihuahua, Juárez</option>
+					<option value="Distrito Federal, Valle de México">Distrito Federal, Valle de México</option>
+					<option value="Durango, Durango">Durango, Durango</option>
+					<option value="Guanajuato, Celaya">Guanajuato, Celaya</option>
+					<option value="Guanajuato, Guanajuato">Guanajuato, Guanajuato</option>
+					<option value="Guanajuato, Irapuato">Guanajuato, Irapuato</option>
+					<option value="Guanajuato, León">Guanajuato, León</option>
+					<option value="Guanajuato, La Piedad-Pénjamo">Guanajuato, La Piedad-Pénjamo</option>
+					<option value="Guanajuato, San Francisco del Rincón">Guanajuato, San Francisco del Rincón</option>
+					<option value="Guanajuato, Salamanca">Guanajuato, Salamanca</option>
+					<option value="Guerrero, Acapulco">Guerrero, Acapulco</option>
+					<option value="Guerrero, Chilpancingo">Guerrero, Chilpancingo</option>
+					<option value="Hidalgo, Tula">Hidalgo, Tula</option>
+					<option value="Hidalgo, Tulancingo">Hidalgo, Tulancingo</option>
+					<option value="Hidalgo, Pachuca">Hidalgo, Pachuca</option>
+					<option value="Jalisco, Guadalajara">Jalisco, Guadalajara</option>
+					<option value="Jalisco, Ocotlán">Jalisco, Ocotlán</option>
+					<option value="Jalisco, Puerto Vallarta">Jalisco, Puerto Vallarta</option>
+					<option value="México, Toluca">México, Toluca</option>
+					<option value="Michoacán, Zamora-Jacona">Michoacán, Zamora-Jacona</option>
+					<option value="Michoacán, Morelia">Michoacán, Morelia</option>
+					<option value="Michoacán, Uruapan">Michoacán, Uruapan</option>
+					<option value="Morelos, Cuautla">Morelos, Cuautla</option>
+					<option value="Morelos, Cuernavaca">Morelos, Cuernavaca</option>
+					<option value="Nayarit, Tepic">Nayarit, Tepic</option>
+					<option value="Monterrey, Nuevo León">Monterrey, Nuevo León</option>
+					<option value="Oaxaca, Oaxaca">Oaxaca, Oaxaca</option>
+					<option value="Oaxaca, Tehuantepec-Salina Cruz">Oaxaca, Tehuantepec-Salina Cruz</option>
+					<option value="Puebla, Puebla-Tlaxcala">Puebla, Puebla-Tlaxcala</option>
+					<option value="Puebla, Tehuacán">Puebla, Tehuacán</option>
+					<option value="Querétaro, Querétaro">Querétaro, Querétaro</option>
+					<option value="Querétaro, San Juan del Río">Querétaro, San Juan del Río</option>
+					<option value="Quintana Roo, Cancún">Quintana Roo, Cancún</option>
+					<option value="Quintana Roo, Chetumal">Quintana Roo, Chetumal</option>
+					<option value="San Luis Potosí, Rioverde-Ciudad Fernández">San Luis Potosí, Rioverde-Ciudad Fernández</option>
+					<option value="San Luis Potosí, Soledad">San Luis Potosí, Soledad</option>
+					<option value="Sinaloa, Los Mochis">Sinaloa, Los Mochis</option>
+					<option value="Sinaloa, Culiacán">Sinaloa, Culiacán</option>
+					<option value="Sinaloa, Mazatlán">Sinaloa, Mazatlán</option>
+					<option value="Sonora, Ciudad Obregón">Sonora, Ciudad Obregón</option>
+					<option value="Sonora, Guaymas">Sonora, Guaymas</option>
+					<option value="Sonora, Hermosillo">Sonora, Hermosillo</option>
+					<option value="Tabasco, Cárdenas">Tabasco, Cárdenas</option>
+					<option value="Tabasco, Villahermosa">Tabasco, Villahermosa</option>
+					<option value="Tamaulipas, Tampico-Pánuco">Tamaulipas, Tampico-Pánuco</option>
+					<option value="Tamaulipas, Matamoros">Tamaulipas, Matamoros</option>
+					<option value="Tamaulipas, Nuevo Laredo">Tamaulipas, Nuevo Laredo</option>
+					<option value="Tamaulipas, Reynosa-Río Bravo">Tamaulipas, Reynosa-Río Bravo</option>
+					<option value="Tamaulipas, Ciudad Victoria">Tamaulipas, Ciudad Victoria</option>
+					<option value="Tlaxcala-Apizaco, Tlaxcala">Tlaxcala-Apizaco, Tlaxcala</option>
+					<option value="Veracruz, Veracruz">Veracruz, Veracruz</option>
+					<option value="Veracruz, Córdoba">Veracruz, Córdoba</option>
+					<option value="Veracruz, Orizaba">Veracruz, Orizaba</option>
+					<option value="Veracruz, Xalapa">Veracruz, Xalapa</option>
+					<option value="Veracruz, Poza Rica">Veracruz, Poza Rica</option>
+					<option value="Veracruz, Coatzacoalcos">Veracruz, Coatzacoalcos</option>
+					<option value="Veracruz, Minatitlán">Veracruz, Minatitlán</option>
+					<option value="Yucatán, Mérida">Yucatán, Mérida</option>
+					<option value="Zacatecas, Zacatecas">Zacatecas, Zacatecas</option>
+					</select>
+			</td>
+			<td>
+			<label>Lugar de Nacimiento:</label>
+					<select>
+					<option value="Aguascalientes, Aguascalientes">Aguascalientes, Aguascalientes</option>
+					<option value="Baja California, Ensenada">Baja California, Ensenada</option>
+					<option value="Baja California, Mexicali">Baja California, Mexicali</option>
+					<option value="Baja California, Tijuana">Baja California, Tijuana</option>
+					<option value="Baja California sur, La paz">Baja California sur, La paz</option>
+					<option value="Baja California sur, Los Cabos">Baja California sur, Los Cabos</option>
+					<option value="Campeche, Campeche">Campeche, Campeche</option>
+					<option value="Campeche, Ciudad del crimen">Campeche, Ciudad del crimen</option>
+					<option value="Coahuila, Saltillo">Coahuila, Saltillo</option>
+					<option value="Coahuila, Monclova-Frontera">Coahuila, Monclova-Frontera</option>
+					<option value="Coahuila, La Laguna">Coahuila, La Laguna</option>
+					<option value="Coahuila, Piedras Negras">Coahuila, Piedras Negras</option>
+					<option value="Colima, Tecomán">Colima, Tecomán</option>
+					<option value="Colima, Villa de Álvarez">Colima, Villa de Álvarez</option>
+					<option value="Colima, Manzanillo">Colima, Manzanillo</option>
+					<option value="Chiapas, Tuxtla Gutiérrez">Chiapas, Tuxtla Gutiérrez</option>
+					<option value="Chiapas, Tapachula">Chiapas, Tapachula</option>
+					<option value="Chihuahua, Chihuahua">Chihuahua, Chihuahua</option>
+					<option value="Chihuahua, Juárez">Chihuahua, Juárez</option>
+					<option value="Distrito Federal, Valle de México">Distrito Federal, Valle de México</option>
+					<option value="Durango, Durango">Durango, Durango</option>
+					<option value="Guanajuato, Celaya">Guanajuato, Celaya</option>
+					<option value="Guanajuato, Guanajuato">Guanajuato, Guanajuato</option>
+					<option value="Guanajuato, Irapuato">Guanajuato, Irapuato</option>
+					<option value="Guanajuato, León">Guanajuato, León</option>
+					<option value="Guanajuato, La Piedad-Pénjamo">Guanajuato, La Piedad-Pénjamo</option>
+					<option value="Guanajuato, San Francisco del Rincón">Guanajuato, San Francisco del Rincón</option>
+					<option value="Guanajuato, Salamanca">Guanajuato, Salamanca</option>
+					<option value="Guerrero, Acapulco">Guerrero, Acapulco</option>
+					<option value="Guerrero, Chilpancingo">Guerrero, Chilpancingo</option>
+					<option value="Hidalgo, Tula">Hidalgo, Tula</option>
+					<option value="Hidalgo, Tulancingo">Hidalgo, Tulancingo</option>
+					<option value="Hidalgo, Pachuca">Hidalgo, Pachuca</option>
+					<option value="Jalisco, Guadalajara">Jalisco, Guadalajara</option>
+					<option value="Jalisco, Ocotlán">Jalisco, Ocotlán</option>
+					<option value="Jalisco, Puerto Vallarta">Jalisco, Puerto Vallarta</option>
+					<option value="México, Toluca">México, Toluca</option>
+					<option value="Michoacán, Zamora-Jacona">Michoacán, Zamora-Jacona</option>
+					<option value="Michoacán, Morelia">Michoacán, Morelia</option>
+					<option value="Michoacán, Uruapan">Michoacán, Uruapan</option>
+					<option value="Morelos, Cuautla">Morelos, Cuautla</option>
+					<option value="Morelos, Cuernavaca">Morelos, Cuernavaca</option>
+					<option value="Nayarit, Tepic">Nayarit, Tepic</option>
+					<option value="Monterrey, Nuevo León">Monterrey, Nuevo León</option>
+					<option value="Oaxaca, Oaxaca">Oaxaca, Oaxaca</option>
+					<option value="Oaxaca, Tehuantepec-Salina Cruz">Oaxaca, Tehuantepec-Salina Cruz</option>
+					<option value="Puebla, Puebla-Tlaxcala">Puebla, Puebla-Tlaxcala</option>
+					<option value="Puebla, Tehuacán">Puebla, Tehuacán</option>
+					<option value="Querétaro, Querétaro">Querétaro, Querétaro</option>
+					<option value="Querétaro, San Juan del Río">Querétaro, San Juan del Río</option>
+					<option value="Quintana Roo, Cancún">Quintana Roo, Cancún</option>
+					<option value="Quintana Roo, Chetumal">Quintana Roo, Chetumal</option>
+					<option value="San Luis Potosí, Rioverde-Ciudad Fernández">San Luis Potosí, Rioverde-Ciudad Fernández</option>
+					<option value="San Luis Potosí, Soledad">San Luis Potosí, Soledad</option>
+					<option value="Sinaloa, Los Mochis">Sinaloa, Los Mochis</option>
+					<option value="Sinaloa, Culiacán">Sinaloa, Culiacán</option>
+					<option value="Sinaloa, Mazatlán">Sinaloa, Mazatlán</option>
+					<option value="Sonora, Ciudad Obregón">Sonora, Ciudad Obregón</option>
+					<option value="Sonora, Guaymas">Sonora, Guaymas</option>
+					<option value="Sonora, Hermosillo">Sonora, Hermosillo</option>
+					<option value="Tabasco, Cárdenas">Tabasco, Cárdenas</option>
+					<option value="Tabasco, Villahermosa">Tabasco, Villahermosa</option>
+					<option value="Tamaulipas, Tampico-Pánuco">Tamaulipas, Tampico-Pánuco</option>
+					<option value="Tamaulipas, Matamoros">Tamaulipas, Matamoros</option>
+					<option value="Tamaulipas, Nuevo Laredo">Tamaulipas, Nuevo Laredo</option>
+					<option value="Tamaulipas, Reynosa-Río Bravo">Tamaulipas, Reynosa-Río Bravo</option>
+					<option value="Tamaulipas, Ciudad Victoria">Tamaulipas, Ciudad Victoria</option>
+					<option value="Tlaxcala-Apizaco, Tlaxcala">Tlaxcala-Apizaco, Tlaxcala</option>
+					<option value="Veracruz, Veracruz">Veracruz, Veracruz</option>
+					<option value="Veracruz, Córdoba">Veracruz, Córdoba</option>
+					<option value="Veracruz, Orizaba">Veracruz, Orizaba</option>
+					<option value="Veracruz, Xalapa">Veracruz, Xalapa</option>
+					<option value="Veracruz, Poza Rica">Veracruz, Poza Rica</option>
+					<option value="Veracruz, Coatzacoalcos">Veracruz, Coatzacoalcos</option>
+					<option value="Veracruz, Minatitlán">Veracruz, Minatitlán</option>
+					<option value="Yucatán, Mérida">Yucatán, Mérida</option>
+					<option value="Zacatecas, Zacatecas">Zacatecas, Zacatecas</option>
+					</select>
+			</td>
+			<td>
+			<label>Fecha de nacimiento:</label>
+			<select>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+
+			<select>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+				<option value="Junio">Junio</option>
+				<option value="Julio">Julio</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Septiembre">Septiembre</option>
+				<option value="Octubre">Octubre</option>
+				<option value="Noviembre">Noviembre</option>
+				<option value="Diciembre">Diciembre</option>
+			</select>
+
+			<select>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+				<option value="1984">1984</option>
+				<option value="1983">1983</option>
+				<option value="1982">1982</option>
+				<option value="1981">1981</option>
+				<option value="1980">1980</option>
+			</select>
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<center>
+				<label for="Estatura">Estatura:</label>
+				<input type="text" placeholder="Escribe tu estatura" id="Estatura">
+				</center>
+			</td>
+			<td>
+				<center>
+				<label for="Peso">Peso:</label>
+				<input type="text" placeholder="Escribe tu peso" id="Peso">
+				</center>
+			</td>
+			<td>
+				<center>
+				<label>Nacionalidad:</label>
+				<select>
+					<option value="Estadounidense">Estadounidense</option>
+					<option value="Mexicana">Mexicana</option>
+					<option value="Argentina">Argentina</option>
+					<option value="Colombiana">Colombiana</option>
+					<option value="Brazileña">Brazileña</option>
+					<option value="Canadiense">Canadiense</option>
+					<option value="China">China</option>
+					<option value="Coreana">Coreana</option>
+					<option value="Cubana">Cubana</option>
+					<option value="Española">Española</option>
+					<option value="Francesa">Francesa</option>
+					<option value="Italiana">Italiana</option>
+				</select>
+				</center>
+			</td>
+			<td>
+				<label><center>Sexo:<br></label></center>
+				<center>
+				<label for="sexo">Hombre</label>
+				<input type="checkbox" id="sexo">
+				<label for="sexo">Mujer</label>
+				<input type="checkbox" id="sexo">
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<label><center>Vive con:<br></label></center>
+					<center>
+					<label for="padres">Sus padres</label>
+					<input type="checkbox" id="padres">
+					<label for="familia"> Su familia</label>
+					<input type="checkbox" id="familia">
+					<label for="parientes">Parientes</label>
+					<input type="checkbox" id="parientes">
+					<label for="solo">Solo</label>
+					<input type="checkbox" id="solo">
+					</center>
+			</td>
+			<td>
+				<label><center>Personas que dependen de usted:<br></label></center>
+				<center>
+				<label for="hijos">Hijos</label>
+				<input type="checkbox" id="hijos">
+				<label for="yuge">Cónyuge</label>
+				<input type="checkbox" id="yuge">
+				<label for="adres">Padres</label>
+				<input type="checkbox" id="adres">
+				<label for="tros">Otros</label>
+				<input type="checkbox" id="tros">
+				</center>
+			</td>
+			<td>
+				<label><center>Estado Civil:<br></label></center>
+				<center>
+				<label for="oltero">Soltero</label>
+				<input type="checkbox" id="oltero">
+				<label for="asado">Casado</label>
+				<input type="checkbox" id="asado">
+				<label for="tro">Otro</label>
+				<input type="checkbox" id="tro">
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table id="datos">
+		<tr>
+			<th>Documentación</th>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+			<label for="Clave">Clave Única de Registro de Población:</label>
+			<input type="text" placeholder="Escribe tu CURP" id="Clave">
+			</td>
+			<td>
+			<label for="AFORE">AFORE:</label>
+			<input type="text" placeholder="Escribe tu AFORE" id="AFORE">
+			</td>
+			<td>
+			<label for="rfc">Registro Fedederal de Contribuyentes:</label>
+			<input type="text" placeholder="Escribe tu RFC" id="rfc">
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<label for="NSS">Número de Seguridad Social:</label>
+				<input type="text" placeholder="Escribe tu NSS" id="NSS">
+			</td>
+			<td>
+				<label for="Servicio Militar">Cartilla de Servicio Militar No. :</label>
+				<input type="text" placeholder="Número de Cartilla Militar" id="Servicio Militar">
+			</td>
+			<td>
+				<label for="Pasaporte">Pasaporte No. :</label>
+				<input type="text" placeholder="Número de Pasaporte" id="Pasaporte">
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<label><center>Tienes licencia de Manejo:<br></label></center>
+				<center>
+				<label for="tengo">Si</label>
+				<input type="checkbox" id="tengo">
+				<label for="tengo">No</label>
+				<input type="checkbox" id="tengo">
+				</center>
+			</td>
+			<td>
+				<label for="licencia">Clase y Número de licencia:</label>
+				<input type="text" placeholder="Clase y Número de licencia" id="licencia">
+			</td>
+			<td>
+				<label for="extranjero">Siendo extranjero que documentos le permiten trabajar en el país</label>
+				<input type="text" placeholder="Escriba el documento" id="extranjero">
+			</td>
+		</tr>
+	</table>
+ 	<table id="datos">
+		<tr>
+			<th>Estado de salud y Habitos Personales</th>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<label><center>¿Como considera su estado de salud actual?:<br></label></center>
+				<center>
+				<label for="Bueno">Bueno </label>
+				<input type="checkbox" id="Bueno">
+				<label for="Regular">Regular </label>
+				<input type="checkbox" id="Regular">
+				<label for="Malo">Malo </label>
+				<input type="checkbox" id="Malo">
+				<label for="otros">Otros </label>
+				<input type="checkbox" id="otros">
+				</center>
+			</td>
+			<td>
+				<label><center>¿Padece de alguna enfermedad cronica?:<br></label></center>
+				<center>
+				<label for="Si">Si </label>
+				<input type="checkbox" id="Si">
+				<label for="No">No </label>
+				<input type="checkbox" id="No">
+				<label for="Explique"> Explique: </label>
+				<input type="text" placeholder="Explique aqui" id="Explique">
+				</center>
+			</td>
+			<td>
+				<label><center>¿Practica usted algun deporte?:<br></label></center>
+				<center>
+	            <label for="Deporte:"> Deporte : </label>
+				<input type="text" placeholder="Deporte practicado" id="Deporte :">
+				</center>
+			</td>
+		<table>
+             <td>
+				<label><center>¿Permanece a algun club social o deportivo?:<br></label></center>
+				<center>
+	            <label for="Club"> Club: </label>
+				<input type="text" placeholder="Nombre del club si es asi" id="Club :">
+				</center>
+			</td>
+			 <td>
+				<label><center>¿Cual es su pasatiempo favorito?:<br></label></center>
+				<center>
+	            <label for="Pasatiempo"> Pasatiempo: </label>
+				<input type="text" placeholder="Nombre del Pasatiempo" id="Pasatiempo :">
+				</center>
+			</td>
+				<td>
+				<label><center>¿Cual es su meta en la vida?:<br></label></center>
+	            <center>
+	            <label for="Meta"> Meta: </label>
+				<input type="text" placeholder="Escriba aqui" id="Meta :">
+				</center>
+				</td>
+			<table id="datos">
+		<tr>
+			<th>Datos Familiares</th>
+		</tr>
+	</table>
+		<table>
+		<tr>
+			<td>
+				<center>
+				 <label for="padre">Padre ::</label>
+				<input type="text" placeholder="Escribe el Nombre" id="padre">
+				</center>
+			</td>
+			<td>
+				<label><center>Vive:<br></label></center>
+				<center>
+				<label for="i">Si:</label>
+				<input type="checkbox" id="i">
+				<label for="neg">No:</label>
+				<input type="checkbox" id="neg">
+				</center>
+			</td>
+			<td>
+				<center>
+				<label for="dom">Domicilio:</label>
+				<input type="text" placeholder="Escribe su domicilio aqui" id="dom">
+				</center>
+			</td>
+			<td>
+				<center>
+		        <label for="ocu">Ocupacion:</label>
+				<input type="text" placeholder="Escribe su ocupacion aqui" id="ocu">
+				</center>
+			</td>
+		</table>
+		<table>
+		<tr>
+			<td>
+				<center>
+				 <label for="padre">Madre :</label>
+				<input type="text" placeholder="Escribe el Nombre" id="padre">
+				</center>
+			</td>
+			<td>
+				<label><center>Vive:<br></label></center>
+				<center>
+				<label for="i">Si:</label>
+				<input type="checkbox" id="i">
+				<label for="neg">No:</label>
+				<input type="checkbox" id="neg">
+				</center>
+			</td>
+			<td>
+				<center>
+				<label for="dom">Domicilio:</label>
+				<input type="text" placeholder="Escribe su domicilio aqui" id="dom">
+				</center>
+			</td>
+			<td>
+				<center>
+	        	<label for="ocu">Ocupacion:</label>
+				<input type="text" placeholder="Escribe su ocupacion aqui" id="ocu">
+				</center>
+			</td>
+		</table>
+		<table>
+		<tr>
+			<td>
+				<center>
+				<label for="padre">Esposo:</label>
+				<input type="text" placeholder="Escribe el Nombre" id="padre">
+				</center>
+			</td>
+			<td>
+				<label><center>Vive:<br></label></center>
+				<center>
+				<label for="i">Si:</label>
+				<input type="checkbox" id="i">
+				<label for="neg">No:</label>
+				<input type="checkbox" id="neg">
+				</center>
+			</td>
+			<td>
+				<center>
+				<label for="dom">Domicilio:</label>
+				<input type="text" placeholder="Escribe su domicilio aqui" id="dom">
+				</center>
+			</td>
+			<td>
+				<center>
+	        	<label for="ocu">Ocupacion:</label>
+				<input type="text" placeholder="Escribe su ocupacion aqui" id="ocu">
+				</center>
+			</td>
+		</tr>
+		</table>
+		<table>
+			<tr>
+			<td>
+				 <label for="ombre">Nombre y Edad de los hijos:</label>
+				<input type="text" placeholder="Escribe los nombres y edad" id="ombre">
+				<label for="neg">No tengo hijos:</label>
+				<input type="checkbox" id="neg">
+			</td>
+			</tr>	
+			</table>
+        <table id="datos">
+          <tr>
+            <th height="30">Escolaridad</th>
+          </tr>
+        </table>        
+		<tr>
+		  <table>
+          <tr>
+            <td width="21%">
+            <center>
+                <label for="label"></label>
+                <div align="center">Nombre:</div>
+            </center></td>
+            
+            <td width="23.7%"><center>Dirección:</td></center>
+            <td width="8%"><center>De</td></center>
+            <td width="8%"><center>A</td></center>
+            <td width="7.3%"><center>Años</td></center>
+            <td width="31.7%"><center>Titulo recibido: </td></center>
+          </table>    
+<table>
+          <tr>
+            <td width="21%"><center>
+              <div align="center">Primaria:
+                  <br>
+                  <input name="text33" type="text" id="label6" placeholder="Escribe el Nombre">
+                </div>
+              </center></td>
+            <td width="24%"><label>
+              <center>
+            </label>
+              <div align="center">
+                <input name="text3222" type="text" id="text322" placeholder="Escriba la direccion aqui">
+              </div>
+              <center>
+            </center></td>
+            <td width="8%"><center>
+                <label for="label9"></label>
+                <input name="text722" type="text" id="text72" size="6" placeholder="Escribe aqui">
+            </center></td>
+            <td width="8%"><center>
+                <label for="label10"></label>
+                <input name="text727" type="text" id="text726" size="6" placeholder="Escribe aqui">
+            </center></td>
+            <td width="7%"><div align="center">
+              <input name="text7216" type="text" id="text7215" size="6" placeholder="Escribe  aqui">
+            </div></td>
+            <td width="32%"><div align="center">
+              <input name="text32222" type="text" id="text32222" placeholder="Escribe titulo aqui">
+            </div></td>
+</table>
+        <tr>
+<table>
+            <tr>
+              <td width="21%"><center>
+                  <label for="label16">Secundaria:</label>
+                  <input name="text5" type="text" id="label16" placeholder="Escribe el Nombre">
+              </center></td>
+              <td width="24%"><label>
+                <center>
+              </label>
+                <div align="center">
+                  <input name="text322" type="text" id="text32" value="" placeholder="Escriba la direccion aqui">
+                </div>
+                <center>
+              </center></td>
+              <td width="8%"><center>
+                  <label for="label19"></label>
+                  <input name="text723" type="text" id="text722" size="6" placeholder="Escribe aqui">
+              </center></td>
+              <td width="8%"><center>
+                  <label for="label20"></label>
+                  <input name="text728" type="text" id="text727" size="6" placeholder="Escribe aqui">
+              </center></td>
+              <td width="7%"><div align="center">
+                <input name="text7215" type="text" id="text7214" size="6" placeholder="Escribe aqui">
+              </div></td>
+              <td width="32%"><div align="center">
+                <input name="text32223" type="text" id="text32223" placeholder="Escribe titulo aqui">
+              </div></td>
+</table>
+          <tr>
+<table>
+              <tr>
+                <td width="21%"><center>
+                    <label for="label21">Preparatoria:</label>
+                    <input name="text6" type="text" id="label21" placeholder="Escribe el Nombre">
+                </center></td>
+                <td width="24%"><label></label><center>
+                  <input name="text3223" type="text" id="text3222" placeholder="Escriba la direccion aqui">
+                </center></td>
+                <td width="8%"><center>
+                    <label for="label24"></label>
+                    <input name="text724" type="text" id="text723" size="6" placeholder="Escribe aqui">
+                </center></td>
+                <td width="8%"><center>
+                    <label for="label25"></label>
+                    <input name="text7213" type="text" id="text7212" size="6" placeholder="Escribe aqui">
+                </center></td>
+                <td width="7%"><div align="center">
+                  <input name="text7214" type="text" id="text7213" size="6" placeholder="Escribe aqui">
+                </div></td>
+                <td width="32%"><div align="center">
+                  <input name="text32224" type="text" id="text32224" placeholder="Escribe titulo aqui">
+                </div></td>
+</table>
+<tr>
+  <table>
+    <tr>
+      <td width="21%"><center>
+          <label for="label11">Profesional:</label>
+          <input name="text4" type="text" id="label11" placeholder="Escribe el Nombre">
+      </center></td>
+      <td width="24%"><label>
+        <center>
+      </label>
+        <div align="center">
+          <input name="text3224" type="text" id="text3223" placeholder="Escriba la direccion aqui">
+        </div>
+      <center>
+      </center></td>
+      <td width="8%"><center>
+          <label for="label14"></label>
+          <input name="text725" type="text" id="text724" size="6" placeholder="Escribe aqui">
+      </center></td>
+      <td width="8%"><center>
+          <label for="label15"></label>
+          <input name="text729" type="text" id="text728" size="6" placeholder="Escribe aqui">
+      </center></td>
+      <td width="7%"><div align="center">
+        <input name="text7210" type="text" id="text729" size="6" placeholder="Escribe aqui">
+      </div></td>
+      <td width="32%"><div align="center">
+        <input name="text32225" type="text" id="text32225" placeholder="Escribe titulo aqui">
+      </div></td>
+</table>
+  <tr>
+<table>
+      <tr>
+        <td width="21%"><center>
+            <label for="label26">Comercia u otras :</label>
+            <input name="text7" type="text" id="label26" placeholder="Escribe el Nombre">
+        </center></td>
+        <td width="24%"><label></label><center>
+          <input name="text72" type="text" id="label29" placeholder="Escriba la direccion aqui">
+        </center></td>
+        <td width="8%"><center>
+            <label for="label29"></label>
+            <input name="text726" type="text" id="text725" size="6" placeholder="Escribe aqui">
+        </center></td>
+        <td width="8%"><center>
+            <label for="label30"></label>
+            <input name="text7212" type="text" id="text7211" size="6" placeholder="Escribe aqui">
+        </center></td>
+        <td width="7%"><div align="center">
+          <input name="text7211" type="text" id="text7210" size="6" placeholder="Escribe aqui">
+        </div></td>
+        <td width="32%"><div align="center">
+          <input name="text32226" type="text" id="text32226" placeholder="Escribe titulo aqui">
+        </div></td>
+		</table>
+        <table>
+          <tr>
+            <td width="21%">
+            <center>
+            <label for="label2">Estudios que estas efectuando en la actualidad </label>
+            </center>
+            </td>
+		</table>
+         <table>
+          <tr>
+            <td width="23%"><center>
+                <label for="label">Escuela:</label>
+                <input name="text73" type="text" id="label" placeholder="Escribe el Nombre">
+            </center></td>
+            <td width="24%"><label></label>
+                <center>
+                  Horario:
+                  <input name="text7222" type="text" id="text7221" placeholder="Escriba la direccion aqui">
+              </center></td>
+            <td width="27%"><center>
+                <label for="text7221"></label>
+                Curso o carrera:
+                <input name="text7262" type="text" id="text7262" placeholder="Escribe aqui">
+            </center></td>
+            <td width="26%"><center>
+                <label for="label30"></label>
+                Grado:
+                <input name="text72122" type="text" id="text72122" placeholder="Escribe aqui">
+            </center></td>
+	</table>
+        <tr>
+          <tr>
+            <table id="datos">
+          <tr>
+            <th height="30">Conocimientos generales</th>
+          </tr>
+        </table>
+        <table>
+      <tr>
+        <td width="48%"><center>
+            <label for="label"></label>
+            <div align="left">Que idiomas habla:
+              <input name="text7219" type="text" id="text7218" size="40" placeholder="Escribe aqui">
+            </div>
+        </center></td>
+        <td width="52%">Funciones de oficina que domina: 
+        <input name="text7220" type="text" id="text7219" size="40" placeholder="Escribe aqui"></td>
+	</table>
+    <table>
+      <tr>
+        <td width="48%"><center>
+            <label for="label"></label>
+            <div align="left">Maquina de oficina o taller que sepa operar:
+              <input name="text7218" type="text" id="text7217" placeholder="Escribe aqui">
+            </div>
+        </center></td>
+        <td width="52%">Software que conoce: 
+        <input name="text7221" type="text" id="text7220" size="40" placeholder="Escribe aqui"></td>
+	</table>
+    <table>
+      <tr>
+        <td width="21%"><center>
+            <label for="label"></label>
+            <div align="center">Otros trabajos que domina: 
+              <input name="text7217" type="text" id="text7216" size="80" placeholder="Escribe aqui">
+            </div>
+        </center></td>
+		</table>
+		<table id="datos">   
+			<tr>
+				<center>
+				  <th height="30">Empleo actual y anteriores</th>
+            </tr>
+           </table>
+           <table>
+         
+           <td width="21%"><div align="center">Concepto </div></td>
+           <td width="21%"><div align="center">Actual o ultimo </div></td>
+           <td width="21%"><div align="center">Anterior </div></td>
+           <td width="21%"><div align="center">Anterior </div></td>
+           <td width="21%"><div align="center">Anterior</div></td>
+           </table>
+           <table>
+           	<td>
+				<center>
+				<label for="Tiempo">Tiempo que presto sus servicios:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+          <td>
+				<center>
+				<label for="Tiempo">Tiempo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+			<td>
+				<center>
+		        <label for="Tiempo">Tiempo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+			<td>
+				<center>
+				<label for="Tiempo">Tiempo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+			<td>
+				<center>
+		        <label for="Tiempo">Tiempo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+           </table>
+            <table>
+           	<td>
+				<center>
+				<label for="com">Nombre de la compa&ntilde;ia:</label>
+				<input type="text" placeholder="Escribe aqui" id="Tiempo">
+				</center>			</td>
+          <td>
+				<center>
+				<label for="nombre">Nombre:</label>
+				<input type="text" placeholder="Escribe aqui" id="nombre">
+				</center>			</td>
+			<td>
+				<center>
+		        <label for="nombre">Nombre:</label>
+				<input type="text" placeholder="Escribe aqui" id="nombre">
+				</center>			</td>
+			 <td>
+				<center>
+				<label for="nombre">Nombre:</label>
+				<input type="text" placeholder="Escribe aqui" id="nombre">
+				</center>			</td>
+			<td>
+				<center>
+		        <label for="nombre">Nombre:</label>
+				<input type="text" placeholder="Escribe aqui" id="nombre">
+				</center>			</td>
+			
+           </table>
+            <table>
+           	<td>
+				<center>
+				<label for="dic">Direccion de la empresa:</label>
+				<input type="text" placeholder="Escribe aqui" id="dic">
+				</center>			</td>
+				<td>
+				<center>
+		        <label for="dic">Direccion:</label>
+				<input type="text" placeholder="Escribe aqui" id="dic">
+				</center>			</td>
+				<td>
+				<center>
+		        <label for="dic">Direccion:</label>
+				<input type="text" placeholder="Escribe aqui" id="dic">
+				</center>			</td>
+				<td>
+				<center>
+		        <label for="dic">Direccion:</label>
+				<input type="text" placeholder="Escribe aqui" id="dic">
+				</center>			</td>
+				<td>
+				<center>
+		        <label for="dic">Direccion:</label>
+				<input type="text" placeholder="Escribe aqui" id="dic">
+				</center>			</td>
+			</table>
+			 <table>
+           	<td>
+				<center>
+				<label for="tel">telefono de la empresa : </label>
+				<input type="text" placeholder="Escribe aqui" id="tel">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="tel">telefono:</label>
+				<input type="text" placeholder="Escribe aqui" id="tel">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="tel">telefono:</label>
+				<input type="text" placeholder="Escribe aqui" id="tel">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="tel">telefono:</label>
+				<input type="text" placeholder="Escribe aqui" id="tel">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="tel">telefono:</label>
+				<input type="text" placeholder="Escribe aqui" id="tel">
+				</center>			</td>
+			</table>
+			 <table>
+           	<td>
+				<center>
+				<label for="Puesto">Puesto desempe&ntilde;ado: </label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+				<td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+			</table>
+			<table>
+     
+            <td>
+				<center>
+				<label for="Sueldo">Sueldo mensual: </label>
+				<input type="text" placeholder="Escribe aqui" id="Sueldo">
+				</center>			</td>
+	        
+	        <td>
+				<center>
+				<label for="Sueldo">Sueldo: </label>
+				<input type="text" placeholder="Escribe aqui" id="Sueldo">
+				</center>			</td> 
+			<td>
+				<center>
+				<label for="Sueldo">Sueldo: </label>
+				<input type="text" placeholder="Escribe aqui" id="Sueldo">
+				</center>			</td>
+			<td>
+				<center>
+				<label for="Sueldo">Sueldo: </label>
+				<input type="text" placeholder="Escribe aqui" id="Sueldo">
+				</center>			</td>
+			<td>
+				<center>
+				<label for="Sueldo">Sueldo: </label>
+				<input type="text" placeholder="Escribe aqui" id="Sueldo">
+				</center></td>
+
+			</table>
+		    <table>
+     
+            <td>
+				<center>
+				<label for="Motivo">Motivo de separacion:</label>
+				<input type="text" placeholder="Escribe aqui" id="Motivo">
+				</center>			</td>
+		    <td>
+				<center>
+				<label for="Motivo">Motivo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Motivo">
+				</center>			</td>
+			<td>
+				<center>
+				<label for="Motivo">Motivo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Motivo">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="Motivo">Motivo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Motivo">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="Motivo">Motivo:</label>
+				<input type="text" placeholder="Escribe aqui" id="Motivo">
+				</center>			</td>
+			</table>
+			<table>
+     
+            <td>
+				<center>
+				<label for="jefe">Nombre de su jefe directo:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="jefe">Jefe:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="jefe">Jefe:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="jefe">Jefe:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="jefe">Jefe:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+			</table>
+			<table>
+     
+            <td>
+				<center>
+				<label for="jefe">Puesto de su jefe directo:</label>
+				<input type="text" placeholder="Escribe aqui" id="jefe">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+			<td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center></td>
+			<td>			
+ 				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+            <td>
+				<center>
+				<label for="Puesto">Puesto:</label>
+				<input type="text" placeholder="Escribe aqui" id="Puesto">
+				</center>			</td>
+			</table>
+            <table>
+	        <td>
+				<label><center>Podemos solicitar informacion de usted:<br></label></center>
+				<center>
+				<label for="i">Si:</label>
+				<input type="checkbox" id="i">
+				<label for="neg">No:</label>
+				<input type="checkbox" id="neg">
+				</center>	
+				<center>
+				<label for="Razones">Razones:</label>
+				<input type="text" placeholder="Escribe aqui" id="Razonesa">
+				</center>			</td>
+				<td>			
+ 				<center>
+				<label for="Comentarios">Comentarios de tu jefe:</label>
+				<input type="text" placeholder="Escribe aqui" id="Comentarios">
+				</center>			</td>		
+			
+            </table>
+
+		<table id="datos">
+            <tr>
+              <th height="30">Referencias personales (Favor de no incluir jefes anteriores) </th>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td width="21%"><center>
+                  <label for="label2"></label>
+                  <div align="center">Nombre:</div>
+              </center></td>
+              <td width="21%"><center>Domicilio:</td></center>
+              <td width="21%"><center>Telefono:</td></center>
+              <td width="21%"><center>Ocupacion:</td></center>
+              <td width="21%"><center>Tiempo de conocerlo(a):</td></center>
+		</table>
+        <table>
+            <tr>
+              <td width="21%"><center>
+                  <label for="label2"></label>
+                  <input name="text732" type="text" id="text73" placeholder="Escribe el Nombre">
+              </center></td>
+              <td width="21%"><div align="center">
+                <input name="text" type="text" id="text" placeholder="Escribe su domicilio aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text112" type="text" id="text11" placeholder="Escribe tu telefono en No.">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text8" type="text" id="text4" placeholder="Escribe su ocupacion aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text72182" type="text" id="text72182" placeholder="Escribe aqui">
+              </div></td>
+		</table>
+        <table>
+            <tr>
+              <td width="21%"><center>
+                  <label for="label2"></label>
+                <input name="text733" type="text" id="text732" placeholder="Escribe el Nombre">
+              </center></td>
+              <td width="21%"><div align="center">
+                <input name="text2" type="text" id="text2" placeholder="Escribe su domicilio aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text113" type="text" id="text112" placeholder="Escribe tu telefono en No.">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text9" type="text" id="text5" placeholder="Escribe su ocupacion aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text72183" type="text" id="text72183" placeholder="Escribe aqui">
+              </div></td>
+		</table>
+        <table>
+            <tr>
+              <td width="21%"><center>
+                  <label for="label2"></label>
+                <input name="text734" type="text" id="text733" placeholder="Escribe el Nombre">
+              </center></td>
+              <td width="21%"><div align="center">
+                <input name="text3" type="text" id="text3" placeholder="Escribe su domicilio aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text114" type="text" id="text113" placeholder="Escribe tu telefono en No.">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text10" type="text" id="text6" placeholder="Escribe su ocupacion aqui">
+              </div></td>
+              <td width="21%"><div align="center">
+                <input name="text72184" type="text" id="text72184" placeholder="Escribe aqui">
+              </div></td>
+		</table>
+		<table id="datos">   
+			<tr>
+				<center>
+				<th>Datos Generales</th>
+				</center>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<label><center>¿Como supo de este empleo?<br></label></center>
+					<center>
+					<label for="Si">Anuncio</label>
+					<input type="checkbox" id="Si">
+					<label for="No">Otro medio</label>
+					<input type="checkbox" id="No">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Tiene parientes trabajando en esta Empresa?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Nombrelos">Nombrelos:</label>
+					<input type="text" placeholder="Escribe aqui" id="Nombrelos">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Ha estado afianzado?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Ha estado afiliado a algún sindicato?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="cual">A cual</label>
+					<input type="text" placeholder="Escribe aqui" id="cual">
+					</center>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<label><center>¿Tiene seguro de vida?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Puede viajar?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Razones">Razones:</label>
+					<input type="text" placeholder="Escribe aqui" id="Razones">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Esta dispuesto a cambia de lugar de residencia?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Razon">Razones:</label>
+					<input type="text" placeholder="Escribe aqui" id="Razon">
+					</center>
+				</td>
+				<td>
+			<label>Fecha en que Podria Presentarse a Trabajar</label>
+			<br>
+			<center>
+			<select>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+
+			<select>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+				<option value="Junio">Junio</option>
+				<option value="Julio">Julio</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Septiembre">Septiembre</option>
+				<option value="Octubre">Octubre</option>
+				<option value="Noviembre">Noviembre</option>
+				<option value="Diciembre">Diciembre</option>
+			</select>
+
+			<select>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+				<option value="1984">1984</option>
+				<option value="1983">1983</option>
+				<option value="1982">1982</option>
+				<option value="1981">1981</option>
+				<option value="1980">1980</option>
+			</select>
+			</center>
+			</td>
+			</tr>
+		</table>
+		<table id="datos">   
+			<tr>
+				<center>
+				<th>Datos Económicos</th>
+				</center>
+			</tr>
+		</table>  
+		<table>
+			<tr>
+				<td>
+					<label><center>¿Tiene usted otros ingresos?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Importe">Importe Mensual: $</label>
+					<input type="text" placeholder="Escribe aqui" id="Importe">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Su cónyuge trabaja?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Percepción">Percepción Mensual: $</label>
+					<input type="text" placeholder="Escribe aqui" id="Percepción">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Vive en casa propia?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="valor">Valor: $</label>
+					<input type="text" placeholder="Escribe aqui" id="valor">
+					</center>
+				</td>				
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<label><center>¿Paga renta?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Renta">Renta Mensual: $</label>
+					<input type="text" placeholder="Escribe aqui" id="Renta">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Tiene automóvil propio?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Percepción">Percepción Mensual: $</label>
+					<input type="text" placeholder="Escribe aqui" id="Percepción">
+					</center>
+				</td>
+				<td>
+					<label><center>¿Tiene deudas?<br></label></center>
+					<center>
+					<label for="Si">Si</label>
+					<input type="checkbox" id="Si">
+					<label for="No">No</label>
+					<input type="checkbox" id="No">
+					<label for="Importe">Importe: $</label>
+					<input type="text" placeholder="Escribe aqui" id="Importe">
+					</center>
+				</td>				
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<center>
+					<label for="abona">¿Cuanto abona mensualmente? $</label>
+					<input type="text" placeholder="Escribe aqui" id="abona">
+					</center>
+				</td>
+				<td>
+					<center>
+					<label for="gastos">¿A cuánto ascienden sus gastos mensuales? $</label>
+					<input type="text" placeholder="Escribe aqui" id="gastos">
+					</center>
+				</td>
+			</tr>
+		</table>
+        <table>
+			<tr>
+	            <td width="50%" bgcolor="#D0D0D0">
+	            <center>
+	            <label for="label2"></label>Comentarios del entrevistador:           
+	            </center>
+	            </td>
+           		<td width="50%">
+           		<div align="center">Hago consolar que mis respuestas son verdaderas</div>
+           		</td>
+           	</tr>
+		</table>
+        <table>
+            <tr>
+              <td width="50%">
+              <center>
+                  <label for="label2"></label>
+                  <input name="text7322" type="text" id="text7322" size="70" placeholder="Escriba su comentario">
+              </center>
+              </td>
+              <td>
+              	<center>
+				<label for="Si">Si</label>
+				<input type="checkbox" id="Si">
+				<label for="No">No</label>
+				<input type="checkbox" id="No">
+				</center>
+              </td>
+		</table>   
+		<table>
+            <tr>
+              <td width="21%" bgcolor="#D0D0D0">
+          	<center>
+              <label for="label2"></label>Firma del Entrevistador</center></td>
+              <td width="21%"><div align="center">Firma del solicitante</div></td>
+			</table>
+       		<table>
+            <tr>
+              <td width="50%" height="50"><center>
+                  <label for="label2"></label>
+              </center></td>
+              <td width="50%">
+              </td>
+		</table> 
+		<br><br><br>
+</body>
+</html>
